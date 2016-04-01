@@ -1,0 +1,28 @@
+{
+  "name": "altspace-webpack-starter",
+  "version": "1.0.0",
+  "description": "altspace webpack template",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline",
+    "build": "NODE_ENV=production webpack -p --progress --profile --colors"
+  },
+  "author": "",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-1": "^6.1.18",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "altspace": "^0.5.3",
+    "css-wipe": "^4.1.2",
+    "pleasejs": "^0.4.2",
+    "three": "^0.73.0"
+  }
+}
