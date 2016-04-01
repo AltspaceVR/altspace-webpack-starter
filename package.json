@@ -1,7 +1,7 @@
 {
   "name": "altspace-webpack-starter",
   "version": "1.0.0",
-  "description": "altspace webpack template",
+  "description": "altspace webpack starter",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -15,14 +15,16 @@
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-stage-1": "^6.1.18",
     "css-loader": "^0.23.1",
+    "eslint": "^2.6.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.2.3",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
     "altspace": "AltspaceVR/AltspaceSDK#c8d8806ac",
-    "css-wipe": "^4.1.2",
-    "pleasejs": "^0.4.2",
-    "three": "^0.73.0"
+    "three": "^0.73.0",
+    "pleasejs": "^0.4.2"
   }
 }

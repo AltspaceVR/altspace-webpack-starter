@@ -1,11 +1,6 @@
 {
-  "extends": ["standard"],
-  "parser": "babel-eslint",
-  "rules": {
-    "space-before-function-paren": [1, "never"],
-    "no-unused-vars": 1,
-    "semi": 1,
-    "react/prop-types": 0,
-    "no-multiple-empty-lines": 0
-  }
+  "extends": "airbnb/base",
+    "rules": {
+      "new-cap": 0
+    }
 }
