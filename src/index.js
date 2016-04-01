@@ -6,8 +6,6 @@ import altspace from 'altspace'
 
 import Please from 'pleasejs'
 
-window.THREE = THREE
-
 var CUBE_SCALE = 150;
 //can change above value in live-coding, 10-500 works well
 

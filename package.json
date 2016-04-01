@@ -20,7 +20,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "altspace": "^0.5.3",
+    "altspace": "AltspaceVR/AltspaceSDK#c8d8806ac",
     "css-wipe": "^4.1.2",
     "pleasejs": "^0.4.2",
     "three": "^0.73.0"
