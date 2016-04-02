@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --host 0.0.0.0",
     "build": "NODE_ENV=production webpack -p --progress --profile --colors"
   },
   "author": "",
@@ -23,7 +23,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "altspace": "AltspaceVR/AltspaceSDK#c8d8806ac",
+    "altspace": "^0.6.0",
     "three": "^0.73.0",
     "pleasejs": "^0.4.2"
   }
