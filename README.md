@@ -1,14 +1,14 @@
 # AltspaceVR/altspace-webpack-starter
 
-Starter template for building altspace apps with es6. The code is bundled up using [Webpack](https://webpack.github.io/) and a dev server is provided for previewing the app with live reload and [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement.html).
+Starter template for building Altspace apps with es6 and Webpack. The code is bundled up using [Webpack](https://webpack.github.io/) and a dev server is provided for previewing the app with live reload and [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement.html).
 
 ## Local Development
 
 If you don't already have it installed, install [npm](https://www.npmjs.com/) then run the following to spin it up:
 
 ```
-> npm install
-> npm start
+npm install
+npm start
 ```
 
 This will start a development server on port 8080. Changes to any of the javascript or css files will automatically be reflected (most times without losing application state).
