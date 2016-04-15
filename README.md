@@ -1,4 +1,4 @@
-# AltspaceVR/altspace-webpack-starter
+# altspace-webpack-starter
 
 Starter template for building Altspace apps with es6 and Webpack. The code is bundled up using [Webpack](https://webpack.github.io/) and a dev server is provided for previewing the app with live reload and [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement.html).
 
